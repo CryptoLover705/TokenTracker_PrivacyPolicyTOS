@@ -51,9 +51,6 @@ The `setpricechannel` command creates a locked voice channel for displaying the 
 4. **Success:** "✅ Successfully created a price channel for **TOKEN_SYMBOL**: <#CHANNEL_ID>"
 5. **Periodic Updates:** Every 5 minutes, the channel name is updated to reflect the new price and trend.
 
-### Improvements or Additional Features:
-- **Custom Trend Indicators:** Consider adding more trend indicators or emojis for a more nuanced price trend (e.g., stable, highly volatile).
-- **Error Handling in `setInterval`:** Add error handling to the periodic price update process to ensure that the bot does not crash if there’s an issue with the price update logic.
-- **More Channel Types:** Instead of using voice channels for price display, consider adding an option to use text channels for price updates, as they are easier to manage.
+
 
 This command enhances user interaction with tracked tokens by providing real-time price data and trend indicators directly in Discord.
